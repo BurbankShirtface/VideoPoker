@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Video Poker</title>
+  </head>
+  <body>
+    <div class="game-board">
+      <div class="alert"></div>
+      <!-- <div id="grid"></div> -->
+
+      <!-- <div class="payouts">
+        <ul id="hand-rankings">
+          <li>ROYAL FLUSH....</li>
+          <li>STRAIGHT FLUSH.....</li>
+          <li>FOUR OF A KIND.....</li>
+          <li>FULL HOUSE.....</li>
+          <li>FLUSH.....</li>
+          <li>STRAIGHT.....</li>
+          <li>THREE OF A KIND.....</li>
+          <li>TWO PAIR.....</li>
+          <li>JACKS OR BETTER.....</li>
+        </ul>
+        <ul id="1credit">
+          <li>1 Credit</li>
+          <li>250</li>
+          <li>50</li>
+          <li>25</li>
+          <li>9</li>
+          <li>6</li>
+          <li>4</li>
+          <li>3</li>
+          <li>2</li>
+          <li>1</li>
+        </ul>
+        <ul id="2credit">
+          <li>2 Credits</li>
+          <li>500</li>
+          <li>100</li>
+          <li>50</li>
+          <li>18</li>
+          <li>12</li>
+          <li>8</li>
+          <li>6</li>
+          <li>4</li>
+          <li>2</li>
+        </ul>
+        <ul id="3credit">
+          <li>3 Credits</li>
+          <li>750</li>
+          <li>150</li>
+          <li>75</li>
+          <li>27</li>
+          <li>18</li>
+          <li>12</li>
+          <li>9</li>
+          <li>6</li>
+          <li>3</li>
+        </ul>
+        <ul id="4credit">
+          <li>4 Credits</li>
+          <li>1000</li>
+          <li>200</li>
+          <li>100</li>
+          <li>36</li>
+          <li>24</li>
+          <li>16</li>
+          <li>12</li>
+          <li>8</li>
+          <li>4</li>
+        </ul>
+        <ul id="5credit">
+          <li>Max Credits</li>
+          <li>4000</li>
+          <li>250</li>
+          <li>125</li>
+          <li>45</li>
+          <li>30</li>
+          <li>20</li>
+          <li>15</li>
+          <li>10</li>
+          <li>5</li>
+        </ul>
+      </div>
+-->
+
+      <div class="hand">
+        <div class="cards" id="card1" is-held-card="false">
+          <button class="hold-button" id="hold1">HOLD</button>
+          <img src="PlayingCards\backs\png_96_dpi\red2.png" />
+        </div>
+        <div class="cards" id="card2" is-held-card="false">
+          <button class="hold-button" id="hold2">HOLD</button>
+          <img src="PlayingCards\backs\png_96_dpi\red2.png" />
+        </div>
+        <div class="cards" id="card3" is-held-card="false">
+          <button class="hold-button" id="hold3">HOLD</button>
+          <img src="PlayingCards\backs\png_96_dpi\red2.png" />
+        </div>
+        <div class="cards" id="card4" is-held-card="false">
+          <button class="hold-button" id="hold4">HOLD</button>
+          <img src="PlayingCards\backs\png_96_dpi\red2.png" />
+        </div>
+        <div class="cards" id="card5" is-held-card="false">
+          <button class="hold-button" id="hold5">HOLD</button>
+          <img src="PlayingCards\backs\png_96_dpi\red2.png" />
+        </div>
+      </div>
+
+      <div class="game-buttons">
+        <button class="bet-buttons" id="bet1">BET 1</button>
+        <button class="bet-buttons" id="bet-max">BET MAX</button>
+        <button class="deal-button">DEAL/DRAW</button>
+      </div>
+      <div class="info">
+        <div class="infoBox" id="credits-wagered">Wagered:</div>
+        <div class="infoBox" id="current-hand-rank">Current hand rank</div>
+        <div class="infoBox" id="credits-won">WON:</div>
+        <div class="infoBox" id="credits">CREDITS:</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
